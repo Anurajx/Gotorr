@@ -22,6 +22,8 @@ func main() {
 		fmt.Println("Running in verbose mode...")
 	}
 	fmt.Printf("Hello, %s!\n", *name)
+
+	fmt.Printf("https://blog.jse.li/posts/torrent/") //TODO: Bittorrent client in Go
 	fmt.Println(banner)
 
 }
